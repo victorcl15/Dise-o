@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <title>Crear restaurante</title>
+</head>
+<body>
+    
+    <header>
+        
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                 
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Directory</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="restaurantes.html">Restaurants</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="buscar.html">Search</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nuevo.html">New</a>
+                      </li>
+                    </ul>
+                    </div>
+                    </div>
+        </nav>
+
+    </header>
+    <div style="margin-left: 30px; margin-right: 800px; margin-top: 30px;">
+    <form method="post" action="#">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digita el nombre del restaurante">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digita el lugar de ubicación">
+      </div>
+
+      <label for="basic-url" class="form-label">Imagen URL</label>
+      <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon3">https://www.google.com.co/imghp</span>
+      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+  <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+   
+  </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
