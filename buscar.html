@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <title>Busqueda</title>
+    <style>
+      .filtro{
+        display: none;
+      }
+
+    </style>
 </head>
 <body>
 
@@ -37,16 +43,26 @@
 
 </header>
 <div style="margin: 30px;">
-  <form method="post" action="#">
+  <form method="get" action="#">
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label" style="font-size: 50px; text-align: center;">Buscador</label>
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe el restaurante">
+      <input id="search" type="text" class="form-control" placeholder="Escribe el restaurante">
     </div>
    
-<button type="submit" class="btn btn-primary">Buscar</button>
+<button id="boton" type="submit" class="btn btn-primary">Buscar</button>
   </form>
  
+  <div id="conjunto" style="margin-top: 30px;">
+    
+  </div>
+  
+  
+
 </div>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/funciones_buscar.js" type="module">
+
+
+</script>
 </body>
 </html>
