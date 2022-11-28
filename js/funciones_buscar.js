@@ -45,7 +45,7 @@ caja2.removeChild(titulo);
 cajaPL.removeChild(caja2);
 cajaPL.removeChild(imagenPL);
 conjunto.removeChild(cajaPL);
-console.log("Segundo IF");        
+console.log("Segundo IF-1");        
 verdadero=false;
         
     }else {
@@ -55,7 +55,7 @@ caja2.removeChild(titulo);
 cajaPL.removeChild(caja2);
 cajaPL.removeChild(imagenPL);
 conjunto.removeChild(cajaPL);
-console.log("Segundo IF");        
+console.log("Segundo IF-2");        
 verdadero=false;
     }
 };
